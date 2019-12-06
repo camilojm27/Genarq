@@ -418,7 +418,8 @@ template {
       padding-right: 0; } }
 
 .col--full {
-  flex: 0 0 100%; }
+  flex: 0 0 100%;
+  padding-bottom: 1em; }
 
 @media (min-width: 725px) {
   .col--1-3 {
@@ -491,6 +492,8 @@ h2 {
   line-height: .9; }
   .title-large span {
     font-weight: 300; }
+  .title-large spanvi {
+    color: #e1a700; }
 
 .title-box {
   background: #e1a700;
@@ -533,7 +536,7 @@ h2 {
   right: 0;
   left: 100%;
   font-size: 1.2rem;
-  overflow: hidden;
+  overflow: visible;
   transition: all ease-in-out 250ms; }
   @media (min-width: 725px) {
     .main-nav {
@@ -612,32 +615,38 @@ h2 {
   .hamburger.is-open::before {
     opacity: 0; }
 
+.box-sizing {
+  background: url(/../img/f.png); }
+
+.hr2 {
+  border: 10px solid #e1a700;
+  border-radius: 5px; }
+
 .main-header {
-  position: absolute;
+  background: black;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
   padding-top: 1em; }
 
 .main-header-hv {
-  background: url(/../img/architectural-design-architecture-black-and-white-1755848.jpg);
-  background-size: cover;
-  background-position: auto;
-  position: absolute;
+  background: black;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
   padding-top: 1em; }
 
 .logo {
-  width: 10%; }
+  width: 16%; }
 
 /*linear-gradient(to right, $main, $secondary)*/
 .hero {
   background: url(/../img/building-1245984_960_7201.jpg);
   color: white;
-  padding-top: 8em;
-  padding-bottom: 8em;
+  padding-top: 0em;
+  padding-bottom: 4em;
   text-align: center;
   background-size: cover;
   background-position: center; }
@@ -653,11 +662,8 @@ h2 {
     margin-top: 10vmax; } }
 
 .hero-contacto {
-  background: url(/../img/architecture-1727807_960_720.jpg);
-  background-size: cover;
-  background-position: auto;
   color: white;
-  padding-top: 6em;
+  padding-top: 0em;
   padding-bottom: 6em;
   text-align: center; }
 
@@ -666,7 +672,7 @@ h2 {
   background-size: cover;
   background-position: auto;
   color: white;
-  padding-top: 8em;
+  padding-top: 0em;
   padding-bottom: 8em;
   text-align: center; }
   @media (min-width: 725px) {
@@ -771,6 +777,12 @@ footer {
   .btn--secondary:hover, .btn--secondary:focus {
     background: white;
     color: #211915; }
+
+.btn--tercero {
+  color: white; }
+  .btn--tercero:hover, .btn--tercero:focus {
+    background: #ffc92f;
+    border-color: #ffc92f; }
 
 .cta {
   background-color: #e1a700;

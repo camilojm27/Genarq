@@ -13,6 +13,7 @@ html {
   font-weight: 400;
   line-height: 1.6;
   /* 2 */
+  -webkit-backdrop-filter: blur(4px);
   -ms-text-size-adjust: 100%;
   /* 3 */
   -webkit-text-size-adjust: 100%;
@@ -502,7 +503,7 @@ template {
 }
 
 body {
-  color: #048ca8;
+  color: #211915;
   text-align: center;
 }
 
@@ -534,7 +535,7 @@ img {
 }
 
 .bg-primary {
-  background: #048ca8;
+  background: #211915;
   color: white;
   padding: 5em 2.5em;
 }
@@ -562,6 +563,13 @@ h2 {
   line-height: 1;
 }
 
+.text-wraper {
+  z-index: 700;
+  position: relative;
+  color: #FFFFFF;
+  width: 100%;
+}
+
 .title-large {
   font-size: 3rem;
   font-weight: 900;
@@ -573,7 +581,7 @@ h2 {
 }
 
 .title-box {
-  background: #d31869;
+  background: #e1a700;
   color: white;
   margin: 0 auto;
   padding: 2em;
@@ -625,7 +633,7 @@ h2 {
 }
 
 .main-nav {
-  background: #d31869;
+  background: #e1a700;
   position: absolute;
   top: 0;
   right: 0;
@@ -719,7 +727,7 @@ h2 {
 @media (min-width: 725px) {
   .main-nav a:hover {
     background: none;
-    color: #8e1047;
+    color: #956e00;
   }
 }
 
@@ -785,8 +793,9 @@ h2 {
 }
 
 .main-header-hv {
-  background: -webkit-gradient(linear, left top, right top, from(#048ca8), to(#16db93));
-  background: linear-gradient(to right, #048ca8, #16db93);
+  background: #000;
+  background-size: cover;
+  background-position: auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -800,7 +809,7 @@ h2 {
 
 /*linear-gradient(to right, $main, $secondary)*/
 .hero {
-  background: url(/../img/architecture-black-and-white-black-and-white-2332611.jpg);
+  background: url(/../img/building-1245984_960_7201.jpg);
   color: white;
   padding-top: 8em;
   padding-bottom: 8em;
@@ -825,8 +834,9 @@ h2 {
 }
 
 .hero-contacto {
-  background: -webkit-gradient(linear, left top, right top, from(#048ca8), to(#16db93));
-  background: linear-gradient(to right, #048ca8, #16db93);
+  background: url(/../img/architecture-1727807_960_720.jpg);
+  background-size: cover;
+  background-position: auto;
   color: white;
   padding-top: 6em;
   padding-bottom: 6em;
@@ -834,10 +844,9 @@ h2 {
 }
 
 .hero-mv {
-  background: -webkit-gradient(linear, left top, right top, from(#048ca8), to(#16db93));
-  background: linear-gradient(to right, #048ca8, #16db93);
-  background-size: contain;
-  background-position: center;
+  background: url(/../img/architectural-design-architecture-black-and-white-1755848.jpg);
+  background-size: cover;
+  background-position: auto;
   color: white;
   padding-top: 8em;
   padding-bottom: 8em;
@@ -970,14 +979,14 @@ footer a {
 }
 
 .btn--primary {
-  background: #d31869;
+  background: #e1a700;
   color: white;
-  border: 2px solid #d31869;
+  border: 2px solid #e1a700;
 }
 
 .btn--primary:hover, .btn--primary:focus {
-  background: #8e1047;
-  border-color: #8e1047;
+  background: #956e00;
+  border-color: #956e00;
 }
 
 .btn--secondary {
@@ -987,11 +996,11 @@ footer a {
 
 .btn--secondary:hover, .btn--secondary:focus {
   background: white;
-  color: #048ca8;
+  color: #211915;
 }
 
 .cta {
-  background-color: #16db93;
+  background-color: #e1a700;
   background-image: url(../img/call-to-action-background.jpg);
   background-size: cover;
   background-position: center;
@@ -1009,7 +1018,7 @@ footer a {
   .cta::before, .cta::after {
     content: '';
     display: block;
-    background: #d31869;
+    background: #e1a700;
     position: absolute;
     width: 100%;
     border: 1em solid white;
