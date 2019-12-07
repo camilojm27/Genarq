@@ -23,13 +23,18 @@ h2
   width: 100%
 
 .title-large
-  font-size: 3rem
+  padding-top: 1em
+  font-size: 2rem
   font-weight: $font-black
   line-height: .9
   span
     font-weight: $font-light
   spanvi
     color: $secondary
+  @media(min-width: 725px)
+    padding-top: 0em
+    font-size: 3rem
+    
 
 .title-box
   background: $accent
@@ -64,4 +69,6 @@ h2
 
 .text-intro
   font-size: 1.2rem
+  @media screen and ( max-width: 720 )
+    display: inline
 
