@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900");
 @font-face {
   font-family: 'Gilroy-Light';
-  src: url("/fonts/Gilroy-Regular.ttf"); }
+  src: url("fonts/Gilroy-Regular.ttf"); }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -654,7 +654,7 @@ h2 {
 
 /*linear-gradient(to right, $main, $secondary)*/
 .hero {
-  background: url(/../img/building-1245984_960_7201.jpg);
+  background: url(../img/building-1245984_960_7201.jpg);
   color: white;
   padding-top: 0em;
   padding-bottom: 4em;
@@ -685,7 +685,7 @@ h2 {
   text-align: center; }
 
 .hero-mv {
-  background: url(/../img/architectural-design-architecture-black-and-white-1755848.jpg);
+  background: url(../img/architectural-design-architecture-black-and-white-1755848.jpg);
   background-size: cover;
   background-position: auto;
   color: white;
